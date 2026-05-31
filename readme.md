@@ -6,7 +6,7 @@ A simple and responsive Weather Application built using **HTML**, **Tailwind CSS
 ![image](ss.png)
 
 ## Live at
-[live@]()
+[live@](https://arshasaji4.github.io/JS_WeatherApp/)
 
 ## 🚀 Features
 
