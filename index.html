@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>Weather App UI</title>
+</head>
+
+<body class="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-400 via-sky-500 to-indigo-600 p-4">
+
+    <!-- Weather Card -->
+    <div class="w-full max-w-md bg-white/20 backdrop-blur-lg rounded-3xl shadow-2xl p-6 text-white">
+
+        <!-- Heading -->
+        <h1 class="text-3xl font-bold text-center mb-6">
+            Weather App
+        </h1>
+
+        <!-- Search Bar -->
+        <div class="flex gap-3 mb-6">
+
+            <input type="text" placeholder="Enter city name"
+                class="flex-1 px-4 py-3 rounded-xl outline-none bg-white text-black placeholder:text-gray-500">
+
+            <button
+                class="bg-white text-blue-600 px-5 py-3 rounded-xl font-semibold hover:bg-blue-100 transition">
+                Search
+            </button>
+
+        </div>
+
+        <!-- Weather Info -->
+        <div class="text-center">
+
+            <!-- Weather Icon -->
+            <img src="https://cdn-icons-png.flaticon.com/512/869/869869.png"
+                alt="Weather Icon"
+                class="w-28 mx-auto mb-4">
+
+            <!-- City -->
+            <h2 class="text-3xl font-bold">
+                Kochi
+            </h2>
+
+            <!-- Temperature -->
+            <p class="text-6xl font-bold my-4">
+                28°C
+            </p>
+
+            <!-- Weather Description -->
+            <p class="text-xl mb-6">
+                Sunny
+            </p>
+
+            <!-- Extra Details -->
+            <div class="grid grid-cols-2 gap-4">
+
+                <!-- Humidity -->
+                <div class="bg-white/20 rounded-2xl p-4">
+                    <p class="text-sm">Humidity</p>
+                    <h3 class="text-2xl font-bold mt-1">
+                        65%
+                    </h3>
+                </div>
+
+                <!-- Wind -->
+                <div class="bg-white/20 rounded-2xl p-4">
+                    <p class="text-sm">Wind Speed</p>
+                    <h3 class="text-2xl font-bold mt-1">
+                        12 km/h
+                    </h3>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+<script src="script.js"></script>
+</body>
+
+</html>
